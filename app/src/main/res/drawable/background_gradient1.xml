@@ -1,0 +1,26 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Top left quadrant -->
+    <item android:top="0px" android:left="0px" android:right="200px" android:bottom="200px">
+        <shape android:shape="rectangle">
+            <solid android:color="#BBDEFB" /> <!-- Light Red -->
+        </shape>
+    </item>
+    <!-- Top right quadrant -->
+    <item android:top="0px" android:left="550px" android:right="0px" android:bottom="200px">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFCDD2" /> <!-- Light Blue -->
+        </shape>
+    </item>
+    <!-- Bottom left quadrant -->
+    <item android:top="1100px" android:left="0px" android:right="200px" android:bottom="0px">
+        <shape android:shape="rectangle">
+            <solid android:color="#C8E6C9" /> <!-- Light Yellow -->
+        </shape>
+    </item>
+    <!-- Bottom right quadrant -->
+    <item android:top="1100px" android:left="550px" android:right="0px" android:bottom="0px">
+        <shape android:shape="rectangle">
+            <solid android:color= "#FFF59D"/> <!-- Light Green -->
+        </shape>
+    </item>
+</layer-list>

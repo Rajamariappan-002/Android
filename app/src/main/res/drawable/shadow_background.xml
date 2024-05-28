@@ -1,0 +1,14 @@
+<!-- shadow_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/white" /> <!-- Background color -->
+    <corners android:radius="8dp" /> <!-- Rounded corners -->
+    <padding
+        android:left="20dp"
+    android:top="20dp"
+    android:right="20dp"
+    android:bottom="20dp" />
+    <gradient
+        android:startColor="#20000000"
+        android:endColor="#40000000"
+        android:angle="135" />
+</shape>

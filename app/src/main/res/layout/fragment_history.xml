@@ -1,0 +1,40 @@
+<!-- res/layout/fragment_history.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryFragment"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LeaderBoard"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="60px"
+            android:layout_marginLeft="20px"/>
+
+        <ImageView
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:src="@drawable/podium"
+            android:layout_marginLeft="430px"
+            android:layout_marginTop="40px"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewLeaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="230px"/>
+</FrameLayout>

@@ -1,0 +1,173 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/framee" />
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/hourglass"
+        android:alpha="0.2"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:padding="16dp"
+        android:text="00:00"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="106dp"
+        android:orientation="vertical">
+
+
+
+
+
+        <TextView
+            android:id="@+id/questionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/timerTextView"
+            android:padding="16dp"
+            android:text="Question"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/saira"/>
+
+
+        <Button
+            android:id="@+id/optionAButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/questionTextView"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_backgroundd"
+            android:backgroundTint="@color/black"
+            android:text="Option A"
+            android:textColor="@color/white"
+            android:visibility="invisible"
+            android:textStyle="bold"
+            android:fontFamily="@font/saira"/>
+
+        <Button
+            android:id="@+id/optionBButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionAButton"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_backgroundd"
+            android:text="Option B"
+            android:textColor="@color/white"
+            android:visibility="invisible"
+            android:textStyle="bold"
+            android:fontFamily="@font/saira"/>
+
+        <Button
+            android:id="@+id/optionCButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionBButton"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_backgroundd"
+            android:text="Option C"
+            android:textColor="@color/white"
+            android:visibility="invisible"
+            android:textStyle="bold"
+            android:fontFamily="@font/saira"/>
+
+        <Button
+            android:id="@+id/optionDButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionCButton"
+            android:layout_margin="8dp"
+            android:background="@drawable/button_backgroundd"
+            android:text="Option D"
+            android:textColor="@color/white"
+            android:visibility="invisible"
+            android:fontFamily="@font/saira"/>
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/optionDButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/previousButton"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_backgroundd"
+                android:backgroundTint="@color/black"
+                android:text="Previous"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/philosopher"/>
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/button_backgroundd"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:fontFamily="@font/philosopher"/>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/okButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nextButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/button_backgroundd"
+            android:text="Go to Home Page"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+</RelativeLayout>

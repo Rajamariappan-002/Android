@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">2023178056</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="home">Home</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="my_account">MyAccount</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_name">Category Name</string>
+    <string name="cat_name">Category Name</string>
+    <string name="calculator">Calculator</string>
+    <string name="send_notification">Send Notification</string>
+    <string name="menu_icon">Menu Icon</string>
+    <string name="categories">Categories</string>
+    <string name="send_noti">Send Notification</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="dont_have_an_accoount">Dont have an accoount?</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="create_an_account">Create an Account.</string>
+    <string name="alread_have_an_account">Alread have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="history">History</string>
+    <string name="leader_board">LeaderBoard</string>
+</resources>
